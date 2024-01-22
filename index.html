@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey's</title>
+    <!-- tailwind & deisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fontawesome icon -->
+    <script src="https://kit.fontawesome.com/a480c85b8f.js" crossorigin="anonymous"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
 </head>
+
 <body>
-    
+    <header class="contianer mx-auto lg:px-24 my-8">
+        <!-- Navbar -->
+        <div class="navbar px-8">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Page</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <div class="navbar-center lg:flex">
+                <a class="font-bold text-xl text-[#131318]">Hockey<span class="text-red-600">'</span>s</a>                
+              </div>
+            </div>
+            <div class=" space-x-4 text-[#131318] text-lg font-normal navbar-center hidden lg:flex">
+                <a href="#" class="text-red-500 font-semibold">Home</a>
+                <a href="#">About</a>
+                <a href="#">Page</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="navbar-end">
+                <div class="flex items-center gap-2 justify-between px-3 py-2 rounded-full">
+                    <i class="fa-solid fa-magnifying-glass w-6"></i>
+                    <button class="rounded-md bg-[#FF4240] p-2 text-white font-semibold">Get Ticket</button>
+                </div>
+            </div>
+          </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
