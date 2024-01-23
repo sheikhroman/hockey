@@ -107,7 +107,8 @@
                 class="h-24 lg:w-1/3 mx-auto top-14 lg:-top-32 lg:left-56 bg-black p-2 relative shadow-md -translate-y-10 rounded-md flex items-center justify-center">
                 <div class="gap-2 justify-around text-white space-y-1">
                     <h2 class="font-bold lg:text-xl">Meet all the heroes from the field</h2>
-                    <p class="text-gray-400">Hockey, the exhilarating sport played on ice, has a unique ability to
+                    <p class="text-gray-400 text-xs lg:text-xs">Hockey, the exhilarating sport played on ice, has a
+                        unique ability to
                         captivate audiences with hockey</p>
                 </div>
             </div>
@@ -126,7 +127,8 @@
             <div class="my-8 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 <div class="card w-90 text-center">
                     <figure>
-                        <div class="radial-progress text-orange-600" style="--value:87;" role="progressbar">87%</div>
+                        <div class="radial-progress text-orange-600 rotate-180" style="--value:87;" role="progressbar">
+                            <span class="rotate-180">87%</span></div>
                     </figure>
                     <div class="card-body">
                         <h2 class="font-bold">Prayer Facility</h2>
@@ -135,7 +137,8 @@
                 </div>
                 <div class="card w-90 text-center">
                     <figure>
-                        <div class="radial-progress text-green-300" style="--value:95;" role="progressbar">95%</div>
+                        <div class="radial-progress text-green-300 rotate-180" style="--value:95;" role="progressbar">
+                            <span class="rotate-180">95%</span></div>
                     </figure>
                     <div class="card-body">
                         <h2 class="font-bold">Prayer Facility</h2>
@@ -144,7 +147,8 @@
                 </div>
                 <div class="card w-90 text-center">
                     <figure>
-                        <div class="radial-progress text-yellow-300" style="--value:90;" role="progressbar">90%</div>
+                        <div class="radial-progress text-yellow-300 rotate-180" style="--value:90;" role="progressbar">
+                            <span class="rotate-180">90%</span></div>
                     </figure>
                     <div class="card-body">
                         <h2 class="font-bold">Prayer Facility</h2>
@@ -153,7 +157,8 @@
                 </div>
                 <div class="card w-90 text-center">
                     <figure>
-                        <div class="radial-progress text-blue-400" style="--value:80;" role="progressbar">80%</div>
+                        <div class="radial-progress text-blue-400 rotate-180" style="--value:80;" role="progressbar">
+                            <span class="rotate-180">80%</span></div>
                     </figure>
                     <div class="card-body">
                         <h2 class="font-bold">Prayer Facility</h2>
@@ -427,7 +432,8 @@
                             Hockey Training
                         </div>
                         <div class="collapse-content">
-                            <p>Helmet: Protects the head from injuries, often with a cage or shield to cover the face.</p>
+                            <p>Helmet: Protects the head from injuries, often with a cage or shield to cover the face.
+                            </p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus border-b-2">
@@ -474,7 +480,7 @@
             </div>
         </section>
         <!-- Get in touch -->
-        <section class="container mx-auto lg:px-24 px-8">
+        <section class="container mx-auto lg:px-24 px-8 mb-10">
             <hr style="border-top: dashed 2px;" class="text-gray-300 my-10" />
             <div class="text-center">
                 <h1 class="lg:text-5xl text-3xl font-bold mt-4">Get In Touch</h1>
@@ -482,12 +488,54 @@
                     truelly belive in the behavior of them.</p>
             </div>
             <hr style="border-top: dashed 2px;" class="text-gray-300 my-10" />
-            <div class="">
-                <div class="">
-                    
+            <div class="lg:flex gap-10">
+                <div class="border-2 p-4 rounded-md lg:w-2/3">
+                    <div class="bg-[#BCED6D1A] p-4 rounded-md ">
+                        <img src="Images/phone.png" alt="">
+                        <p class="mt-10">Phone Number : </p>
+                        <h4 class="font-bold">(+62) 123-321-543</h4>
+                    </div>
+                    <div class="bg-[#FDDD5F1A] p-4 rounded-md mt-2">
+                        <img src="Images/mail.png" alt="">
+                        <p class="mt-10">Mail : </p>
+                        <h4 class="font-bold">hockeys@support.com</h4>
+                    </div>
+                    <div class="bg-[#629CF31A] p-4 rounded-md mt-2">
+                        <img src="Images/location.png" alt="">
+                        <p class="mt-10">Location : </p>
+                        <h4 class="font-bold">152/1 Mohakhali Wireless Gate</h4>
+                    </div>
                 </div>
                 <div class="">
-
+                    <div class="mt-2 lg:flex gap-10">
+                        <div class="">
+                            <p class="font-bold">Your Name</p>
+                            <input type="text" placeholder="Enter your full name"
+                                class="input input-bordered input-success w-full max-w-xs lg:px-56 mb-2" />
+                        </div>
+                        <div class="">
+                            <p class="font-bold lg:ml-10">Your Email</p>
+                            <input type="text" placeholder="Enter your email"
+                                class="input input-bordered input-success w-full max-w-xs lg:px-56 lg:ml-10" />
+                        </div>
+                    </div>
+                    <div class="lg:flex gap-10 mt-2 lg:mt-10">
+                        <div class="">
+                            <p class="font-bold">Subject</p>
+                            <input type="text" placeholder="Enter your subject"
+                                class="input input-bordered input-success w-full max-w-xs lg:px-56 mb-2" />
+                        </div>
+                        <div class="">
+                            <p class="font-bold lg:ml-10">Phone Number</p>
+                            <input type="text" placeholder="Enter your phone number"
+                                class="input input-bordered input-success w-full max-w-xs lg:px-56 lg:ml-10" />
+                        </div>
+                    </div>
+                    <div class="mt-2 lg:mt-4 w-full ">
+                        <p class="font-bold">Message</p>
+                         <textarea class="textarea lg:px-[42%] lg:py-24 px-16 bg-[#13131808]" placeholder="Write your message" ></textarea>
+                            <button class="lg:px-[47%] px-28 lg:py-2 rounded-lg text-white font-bold bg-[#FF4240] mt-2">Send Message</button>
+                    </div>
                 </div>
             </div>
         </section>
